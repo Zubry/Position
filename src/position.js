@@ -47,4 +47,4 @@ export default class Position extends ComplexNumber {
       .rotate(angle)
       .add(point);
   }
-};
+}
