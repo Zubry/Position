@@ -3,7 +3,7 @@ import check, { assert } from 'check-types';
 
 import ComplexNumber from '@zubry/complexnumber';
 
-export default class Position extends ComplexNumber {
+class Position extends ComplexNumber {
   constructor(props) {
     if(check.number(props)){
       const rad = props * Math.PI / 180;
@@ -48,3 +48,7 @@ export default class Position extends ComplexNumber {
       .add(point);
   }
 }
+
+export default (Base) => class extends Base {
+  Position() { }
+};
