@@ -1,11 +1,10 @@
-import { Record as record } from 'immutable';
-import check, { assert } from 'check-types';
+import check from 'check-types';
 
 import ComplexNumber from '@zubry/complexnumber';
 
 export default class Position extends ComplexNumber {
   constructor(props) {
-    if(check.number(props)){
+    if (check.number(props)) {
       const rad = props * Math.PI / 180;
       super({ real: Math.cos(rad), imaginary: Math.sin(rad) });
     } else {

@@ -1,6 +1,6 @@
 {
   "name": "@zubry/position",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Position module",
   "main": "lib/index.js",
   "scripts": {
