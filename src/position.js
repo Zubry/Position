@@ -21,16 +21,6 @@ export default class Position extends ComplexNumber {
     return this.imaginary;
   }
 
-  set x(newX) {
-    return this
-      .set('real', newX);
-  }
-
-  set y(newY) {
-    return this
-      .set('imaginary', newY);
-  }
-
   shift(amount) {
     return this
       .add(amount);
