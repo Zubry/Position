@@ -1,6 +1,6 @@
 {
   "name": "@zubry/position",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Position module",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "should": "^8.4.0"
   },
   "dependencies": {
-    "@zubry/complexnumber": "^1.0.0",
+    "@zubry/complexnumber": "^1.1.0",
     "immutable": "^3.8.1"
   },
   "repository": {
